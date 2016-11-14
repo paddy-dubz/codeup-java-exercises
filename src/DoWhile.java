@@ -1,9 +1,7 @@
 public class DoWhile {
     public static void main(String[] args) {
-        long counter = 2;
-        do {
-            System.out.println(counter);
-            counter *= counter;
-        } while (counter <= 1000000);
+        for (long i = 2; i <= 1000000; i *= i) {
+            System.out.println(i);
+        }
     }
 }
