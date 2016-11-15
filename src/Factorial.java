@@ -7,7 +7,9 @@ public class Factorial {
         String choice = "y";
         while (choice.equalsIgnoreCase("y")) {
             System.out.print("Enter a number from 1-10 to find the factorial: ");
+
             Integer input = scanner.nextInt();
+
             Long fact = 1L;
 
             if (input < 0 || input > 10) {
@@ -20,10 +22,10 @@ public class Factorial {
             }
 
             System.out.println(input + "!" + " = " + fact);
+
             System.out.print("Continue (y/n)?: ");
+
             choice = scanner.next();
-
-
         }
     }
 }
