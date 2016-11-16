@@ -3,9 +3,9 @@
     import java.util.Scanner;
 
     public class Students {
-        private static List studentsList = Arrays.asList("John", "Ben", "Lisa", "Stewart", "Cora");
-        private static int[] grades = {79, 86, 90, 89, 99};
-        private static String[] behavior = {"aggressive", "distractable", "attentive", "disruptive", "angelic"};
+        private static List studentsList = Arrays.asList("John", "Ben", "Lisa", "Stewart", "Cora", "Satan");
+        private static int[] grades = {79, 86, 90, 89, 99, 666};
+        private static String[] behavior = {"aggressive", "distractable", "attentive", "disruptive", "angelic", "the antichrist"};
 
 
         public static void main(String args[]) {
